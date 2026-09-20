@@ -160,7 +160,7 @@ a {
 .quote {
   position: relative;
   overflow: hidden;
-  padding: clamp(60px, 10vw, 120px) 20px;
+  padding: clamp(60px, 10vw, 80px) 20px;
 }
 .brush {
   position: absolute;
@@ -452,3 +452,28 @@ a {
   max-width:700px;
   padding:30px;
 }
+
+.substack-section {
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px 40px;
+}
+
+.substack-button {
+  display: inline-block;
+  background-color: #FF6719;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 6px;
+  font-family: "Tai Heritage Pro", serif;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.25s ease, background-color 0.25s ease;
+}
+
+.substack-button:hover {
+  background-color: #e85b12;
+  transform: translateY(-2px);
+}
+
